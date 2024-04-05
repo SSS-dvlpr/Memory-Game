@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* background-color: #2980b9; */
+    background: url(./images/bg.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#game-board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#start-btn{
+    margin-top: 30px;
+    background-color: burlywood;
+    text-decoration: none;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card.selected {
+    background-color: #2196F3; /* Add this line to give selected cards a different background color */
+}
+
+#score {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#timer {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#scoreboard {
+    margin-top: 20px;
+}
+
+#scores {
+    list-style-type: none;
+    padding: 0;
+}
